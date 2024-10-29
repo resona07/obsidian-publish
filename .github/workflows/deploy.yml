@@ -57,6 +57,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-        with:
-          branch: gh-pages # Ensure the deployment branch is gh-pages
-          folder: public # Ensure the folder to deploy is public
